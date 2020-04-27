@@ -8,17 +8,17 @@
 
 import UIKit
 open class LoginViewController: UIViewController {
-    var info: UILabel!
-    var id: UITextField!
-    var pw: UITextField!
+    public var info: UILabel!
+    public var id: UITextField!
+    public var pw: UITextField!
     
-    var loginBtn: UIButton!
+    public var loginBtn: UIButton!
     
-    var shareInfo: UILabel!
+    public var shareInfo: UILabel!
     
-    var containView: UIView!
-    var shareBtn1: UIButton!
-    var shareBtn2: UIButton!
+    public var containView: UIView!
+    public var shareBtn1: UIButton!
+    public var shareBtn2: UIButton!
     
     public override func viewDidLoad() {
         super.viewDidLoad()
