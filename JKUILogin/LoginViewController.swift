@@ -12,7 +12,7 @@ open class LoginViewController: UIViewController {
     public var id: UITextField!
     public var pw: UITextField!
     
-    public var loginBtn: UIButton!
+    public var loginBtn: UIButton! 
     
     public var shareInfo: UILabel!
     
